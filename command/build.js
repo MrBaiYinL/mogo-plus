@@ -48,7 +48,7 @@ const buildAll = async() => {
             lib: {
                 entry: path.resolve(entryDir, 'index.ts'),
                 name: 'mogo_components',
-                fileName: (format) => `mogo_components.${format}.js`,
+                fileName: (format) => `index.${format}.js`,
                 formats: ['es', 'umd'] // , 'cjs', 'umd', 'iife', "amd"
             },
         },
