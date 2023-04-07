@@ -1,6 +1,6 @@
 <!--
  * @LastEditors: luoxiaolei
- * @LastEditTime: 2023-03-15 16:57:41
+ * @LastEditTime: 2023-03-31 14:43:41
  * @Description:  
 -->
 <template>
@@ -15,13 +15,13 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { ref } from "vue";
+  import { ref } from "vue";
 
-const visible = ref<boolean>(false);
-//
-const handleDialog = (val: boolean) => {
-  visible.value = val;
-};
+  const visible = ref<boolean>(false);
+  //
+  const handleDialog = (val: boolean) => {
+    visible.value = val;
+  };
 </script>
     
 <style lang="scss" scoped>

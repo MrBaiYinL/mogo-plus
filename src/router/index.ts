@@ -1,6 +1,6 @@
 /*
  * @LastEditors: luoxiaolei
- * @LastEditTime: 2023-03-21 16:09:23
+ * @LastEditTime: 2023-03-22 20:20:23
  * @Description:
  */
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router"
@@ -55,6 +55,14 @@ const routes: RouteRecordRaw[] = [
       {
         path: "/modalForm",
         component: () => import("../views/modalForm/index.vue"),
+      },
+      {
+        path: "/table",
+        component: () => import("../views/table/index.vue"),
+      },
+      {
+        path: "/calendar",
+        component: () => import("../views/calendar/index.vue"),
       },
     ],
   },

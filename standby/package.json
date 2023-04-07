@@ -1,0 +1,13 @@
+{
+    "name": "mogo-plus",
+    "version": "1.0.2",
+    "main": "index.umd.js",
+    "module": "index.es.js",
+    "types": "index.d.ts",
+    "author": {
+        "name": "xiamu"
+    },
+    "keywords": [
+        "element-plus", "ts", "二次封装", "vue-components"
+    ]
+}

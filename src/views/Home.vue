@@ -1,6 +1,6 @@
 <!--
  * @LastEditors: luoxiaolei
- * @LastEditTime: 2023-03-15 09:53:04
+ * @LastEditTime: 2023-04-07 10:49:13
  * @Description:  
 -->
 <template>
@@ -13,4 +13,8 @@
 </script>
 
 <style lang="scss" scoped>
+svg {
+  width: 1em;
+  height: 1em;
+}
 </style>
