@@ -1,6 +1,6 @@
 <!--
  * @LastEditors: luoxiaolei
- * @LastEditTime: 2023-04-07 10:52:10
+ * @LastEditTime: 2023-04-07 17:16:10
  * @Description:  
 -->
 <template>
@@ -49,4 +49,8 @@ const props = defineProps({
 </script>
     
 <style lang="scss" scoped>
+svg {
+  width: 1em;
+  height: 1em;
+}
 </style>

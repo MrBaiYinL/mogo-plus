@@ -1,6 +1,6 @@
 <!--
  * @LastEditors: luoxiaolei
- * @LastEditTime: 2023-03-15 11:31:34
+ * @LastEditTime: 2023-04-07 17:17:54
  * @Description:  头部
 -->
 <template>
@@ -27,6 +27,10 @@ const toggle = () => {
   padding: 0 20px;
   display: flex;
   align-items: center;
+}
+svg {
+  width: 1em;
+  height: 1em;
 }
 </style>
     
